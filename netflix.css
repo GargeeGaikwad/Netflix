@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #000;
+    color: #fff;
+}
+.navbar{
+    width: 100%;
+    height: 130vh;
+    background-image:linear-gradient(to top,rgba(0,0,0,0.7)0, rgba(0,0,0,0.7)60%, rgba(0,0,0,0.7)100%), url('./netflixback.PNG');
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.logo{
+    width: 200px;
+    cursor: pointer;
+}
+nav button{
+    background: red;
+    color: white;
+    padding: 7px 20px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.language{
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 7px 10px;
+}
+.language-b{
+    width: 10px;
+    margin-left: 10px;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    margin-top: 100px;
+}
+.content h1{
+    font-size: 60px;
+    line-height: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content h3{
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.email-signup{
+    background: #fff;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    overflow: hidden;
+}
+.email-signup input{
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left: 20px;
+}
+.email-signup button{
+    background: #db0001;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 15px 30px;
+}
+/*--2nd row--*/
+.features{
+    padding: 50px 12%;
+    font-size: 22px;
+}
+.row{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+.text-col{
+    flex-basis: 50%;
+    margin-bottom:20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.img-col{
+    flex-basis: 50%;
+    margin-bottom:20px ;
+}
+.img-col img{
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+/*--3rd row--*/
+.feat{
+    padding: 50px 12%;
+    font-size: 22px;   
+}
+.row2{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 50px 0;
+    align-content: flex-start;
+}
+.text{
+    margin-bottom: 20px;
+    color: white;
+    text-align: right;
+    position: absolute;
+    margin-left: 45%;
+    padding-right: 140px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.img-col2{
+    flex-basis: 50%;
+    margin-bottom:20px;
+    display: block;
+    align-items: start;
+    align-content: left;
+}
+.img-col2 img{
+    display: block;
+    width: 90%;
+    align-content: left;
+}
+
+/*--4th row--*/
+.kids{
+    padding: 50px 12%;
+    font-size: 22px;
+}
+.row3{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+.kids-text{
+    flex-basis: 50%;
+    margin-bottom:20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.img-col3{
+    flex-basis: 50%;
+    margin-bottom:20px;
+    margin-right: auto;
+}
+.img-col3 img{
+    display: block;
+    width: 90%;
+    margin: auto;   
+}
+/*--questions--*/
+.frequently{
+    padding: 20px 12%;
+    font-size: 22px;
+    align-items: center;
+    display: block;
+}
+.question1{
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.question2{
+    align-items: center;
+    padding: 20px;
+    text-align: left;
+    padding-left: 10%;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box2{
+    color: white;
+    background-color: rgb(70, 66, 66);
+    height: 60px;
+    width: 100%;
+    align-content: center;
+}
+.question3{
+    align-items: center;
+    text-align: left;
+    padding: 5px;
+    padding-left: 10%;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box3{
+    color: white;
+    background-color: rgb(70, 66, 66);
+    height: 60px;
+    width: 100%;
+    align-content: center;
+}
+/*--Footer section--*/
+.footer{
+    margin-top: 10px;
+}
+.foot-panel{
+    background-color: black;
+    color: white;
+    height: 50px;
+    display: flex;
+    margin-top: 40px;
+    padding-left: 195px;
+    font-size: 50px;
+}
+.foot-panel2{
+    background-color: black;
+    color: white;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 10px;
+    display: block;
+    font-size: 15px;
+    margin-top: 10px;
+    color: #dddddd;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.netflix{
+    margin-top: 10px;
+    font-size: 0.85rem;
+    margin-left: 195px;
+    display: flex;
+    margin-bottom: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
